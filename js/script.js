@@ -27,10 +27,23 @@ if(parseInt(age)<18){
 
 }
 
+const userkmDiv = document.querySelector('.userkm');
+userkmDiv.innerHTML = 'I km da percorrere sono:'+kmp;
+userkmDiv.classList.add('active');
+
+const userageDiv = document.querySelector('.userage');
+userageDiv.innerHTML = 'La tua età è:'+ age;
+userageDiv.classList.add('active');
+
+const userpriceDiv = document.querySelector('.userprice');
+userpriceDiv.innerHTML = 'Il prezzo finale è:'+ finalprice;
+userpriceDiv.classList.add('active');
+
+
+});
 
 
 
-})
 
     
 
